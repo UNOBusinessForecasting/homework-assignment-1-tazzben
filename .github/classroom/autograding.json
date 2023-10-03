@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Test Accuracy Level 3",
+      "setup": "sudo -H pip3 install pytest statsmodels pandas numpy pygam prophet ipynb",
+      "run": "pytest --disable-warnings test_accuracy_3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test fitted model",
+      "setup": "sudo -H pip3 install pytest statsmodels pandas numpy pygam prophet ipynb",
+      "run": "pytest --disable-warnings tests/test_fitted_model.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test valid predictions",
+      "setup": "sudo -H pip3 install pytest statsmodels pandas numpy pygam prophet ipynb",
+      "run": "pytest --disable-warnings test_valid_pred.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test Accuracy Level 1",
+      "setup": "sudo -H pip3 install pytest statsmodels pandas numpy pygam prophet ipynb",
+      "run": "pytest --disable-warnings test_accuracy_1.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test Accuracy Level 2",
+      "setup": "sudo -H pip3 install pytest statsmodels pandas numpy pygam prophet ipynb",
+      "run": "pytest --disable-warnings test_accuracy_2.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test Accuracy Level 3",
+      "setup": "sudo -H pip3 install pytest statsmodels pandas numpy pygam prophet ipynb",
+      "run": "pytest --disable-warnings test_accuracy_3.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
